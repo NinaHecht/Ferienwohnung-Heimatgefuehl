@@ -194,9 +194,11 @@ nav {
 nav .inline-list li a .icon-link__description {
     display: none;
 }
+nav .inline-list li a.icon-link svg {
+    stroke-width: 2;
+}
 #language a {
     text-decoration: none;
-    font-size: 16px;
 }
 #language a:hover {
     text-decoration: underline;
@@ -265,13 +267,12 @@ nav .inline-list li a .icon-link__description {
     text-align: center;
 }
 #platforms {
-    margin-bottom: 15px;
     overflow-y: hidden;
     max-height: 0;
     transition: all 0.5s;
 }
 #platforms.visible {
-    max-height: 450px;
+    max-height: 600px;
 }
 #hide-platforms {
     display: none;
@@ -477,7 +478,6 @@ footer {
     nav .inline-list li a.icon-link svg {
         height: 35px;
         width: 35px;
-        stroke-width: 2;
     }
     nav .inline-list li a .icon-link__description, #language a {
         font-size: 20px;
