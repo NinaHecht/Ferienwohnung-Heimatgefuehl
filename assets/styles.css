@@ -264,13 +264,14 @@ nav .inline-list li a.icon-link svg {
     text-align: center;
 }
 #platforms {
-    padding: 10px 0;
+    margin: 0;
     overflow-y: hidden;
     max-height: 0;
     transition: all 0.5s;
 }
 #platforms.visible {
     max-height: 600px;
+    margin: 10px 0;
 }
 #hide-platforms {
     display: none;
