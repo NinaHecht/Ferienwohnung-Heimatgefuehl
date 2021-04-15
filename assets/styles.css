@@ -70,7 +70,6 @@ h3, p {
     color: #992929;
     font-size: 60px;
     line-height: 1.1;
-    letter-spacing: 0.01em;
     align-self: center;
     position: relative;
     border-bottom: 3px solid #992929;
@@ -88,7 +87,6 @@ h3, p {
 .homepage h3 {    
     font-size: 60px;
     line-height: 1.1;
-    letter-spacing: 0.01em;
     color: #992929;
     margin-top: 20px;
     text-decoration: none;
@@ -234,7 +232,6 @@ nav .inline-list li a.icon-link svg {
     font-family: 'BalmoralLetPlain', 'Balmoral_LET';
     font-size: 50px;
     line-height: 1.1;
-    letter-spacing: 0.01em;
     background-color: #5A6F1A;
     text-align: center;
     color: #E4E6D9;
@@ -267,6 +264,7 @@ nav .inline-list li a.icon-link svg {
     text-align: center;
 }
 #platforms {
+    padding: 10px 0;
     overflow-y: hidden;
     max-height: 0;
     transition: all 0.5s;
