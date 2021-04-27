@@ -117,24 +117,21 @@
                 <p>Alle Preise erhalten Sie auf Anfrage oder über Buchungsportale wie 
                     <a class="underline" href="https://www.airbnb.de/rooms/47469696" target="_blank" rel="noopener">Airbnb</a> oder 
                     <a class="underline" href="https://www.booking.com/hotel/de/ferienwohnung-liehner.de.html" target="_blank" rel="noopener">Booking.com</a></p>
-                <p id="show-platforms" class="underline underline--red">Alle anzeigen</p>
+                <p id="show-platforms" class="underline underline--red" tabindex="0">Alle anzeigen</p>
                 <ul id="platforms">
                     <li><a href="https://www.e-domizil.de/ferienhaus/2861932/" class="underline" target="_blank" rel="noopener">e-Domizil</a></li>
                     <li><a href="https://www.fewo-direkt.de/ferienwohnung-ferienhaus/p5095914" class="underline" target="_blank" rel="noopener">FeWo-direkt</a></li>
                     <li><a href="https://www.atraveo.de/2861932" class="underline" target="_blank" rel="noopener">atraveo</a></li>
                     <li><a href="https://www.bestfewo.de/unterkunft/22937591.html" class="underline" target="_blank" rel="noopener">BestFewo.de</a></li>
                     <li><a href="https://www.casamundo.de/rental/865986968e4ab94b" class="underline" target="_blank" rel="noopener">casamundo</a></li>
-                    <li><a href="" class="underline" target="_blank" rel="noopener">Expedia</a></li>
                     <li><a href="https://www.holidu.de/d/44648646" class="underline" target="_blank" rel="noopener">holidu</a></li>
                     <li><a href="https://holidays.hrs.de/unterkunftsverzeichnis/ferienwohnung-heimatgefuehl-thalheim" class="underline" target="_blank" rel="noopener">HRS Holidays</a></li>
                     <li><a href="https://www.hometogo.de/rental/865986968e4ab94b" class="underline" target="_blank" rel="noopener">hometogo</a></li>
                     <li><a href="https://www.tourist-online.de/3543421" class="underline" target="_blank" rel="noopener">tourist-online.de</a></li>
                     <li><a href="https://www.tuivillas.com/de_de/1918746" class="underline" target="_blank" rel="noopener">TUI Villas</a></li>
-                    <li><a href="" class="underline" target="_blank" rel="noopener">check24</a></li>
                     <li><a href="https://ferienhaus.urlaubsguru.de/1918746" class="underline" target="_blank" rel="noopener">urlaubsguru</a></li>
-                    <li><a href="" class="underline" target="_blank" rel="noopener">lohospo</a></li>
                 </ul>
-                <p id="hide-platforms" class="underline underline--red">Weniger anzeigen</p>
+                <p id="hide-platforms" class="underline underline--red" tabindex="0">Weniger anzeigen</p>
                 <a class="button" href="mailto:liehnerrs@web.de?subject=Angebotsanfrage%20via%20Webseite">Angebot einholen</a>
                 <h3>Wir freuen uns auf Ihren Besuch!</h3>
             </section>
@@ -163,22 +160,6 @@
             </div>
         </footer>
 
-        <script>
-            let show = document.getElementById('show-platforms');
-            let platforms = document.getElementById('platforms');
-            let hide = document.getElementById('hide-platforms');
-
-            show.addEventListener('click', function(){
-                platforms.classList.add('visible');
-                if(window.getComputedStyle(show).display === 'block') show.style.display = 'none';
-                if(window.getComputedStyle(hide).display === 'none') hide.style.display = 'block';
-            });
-
-            hide.addEventListener('click', function(){
-                if(window.getComputedStyle(hide).display === 'block') hide.style.display = 'none';
-                if(window.getComputedStyle(show).display === 'none') show.style.display = 'block';
-                platforms.classList.remove('visible');
-            });
-        </script>
+        <script src="assets/script.js"></script>
     </body>
 </html>

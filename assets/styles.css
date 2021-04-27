@@ -243,22 +243,26 @@ nav .inline-list li a.icon-link svg {
     display: flex; 
     flex-direction: column;
     border: 5px solid #5A6F1A;
+    background-color: #5A6F1A;
 }
 #livingroom {
     display: flex; 
     flex-direction: column;
     border: 5px solid #992929;
+    background-color: #992929;
 }
 #loft {
     display: flex; 
     flex-direction: column;
     border: 5px solid #5A6F1A;
+    background-color: #5A6F1A;
     margin-bottom: 0;
 }
 #gallery #yard {
     display: flex; 
     flex-direction: column;
     border: 5px solid #992929;
+    background-color: #992929;
 }
 #booking {
     text-align: center;
@@ -270,7 +274,7 @@ nav .inline-list li a.icon-link svg {
     transition: all 0.5s;
 }
 #platforms.visible {
-    max-height: 600px;
+    max-height: 460px;
     margin: 10px 0;
 }
 #hide-platforms {
@@ -478,7 +482,7 @@ footer {
         height: 35px;
         width: 35px;
     }
-    nav .inline-list li a .icon-link__description, #language a {
+    nav .inline-list li a .icon-link__description, #language {
         font-size: 20px;
     }
 
