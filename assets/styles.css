@@ -207,6 +207,17 @@ nav .inline-list li a.icon-link svg {
     position: relative;
     z-index: -1;
 }
+#rating {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+#rating svg {
+    width: 30px;
+    height: 30px;
+    margin: 0 2px;
+    filter: drop-shadow(0 0px 4px #992929);
+}
 #gradient {
     background: linear-gradient(0deg, rgba(228,230,217,0) 0%, rgba(228,230,217,1) 0%, rgba(228,230,217,1) 5%, rgba(228,230,217,0.8) 20%, rgba(228,230,217,0.3) 35%, rgba(228,230,217,0) 100%);
     position: absolute;
@@ -358,9 +369,20 @@ footer {
         font-size: 16px;
         margin-left: 12px;
     }
-
     nav .inline-list li a.icon-link:hover .icon-link__description {
         text-decoration: underline;
+    }
+
+    #rating {
+        top: calc(100% + 30px);
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    #rating svg {
+        width: 50px;
+        height: 50px;
+        margin: 0 5px;
+        filter: none;
     }
 
     .homepage section {
@@ -472,6 +494,14 @@ footer {
     }
     #language {
         margin-left: 100px;
+    }
+
+    #rating {
+        top: calc(100% + 50px);
+    }
+    #rating svg {
+        width: 70px;
+        height: 70px;
     }
 
     nav {
